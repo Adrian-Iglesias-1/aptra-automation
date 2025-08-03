@@ -12,9 +12,7 @@
     "ncr",
     "atleos",
     "automation",
-    "excel",
- 
-  ],
+    "excel" ],
   "author": "Tu Nombre",
   "license": "MIT",
   "dependencies": {
