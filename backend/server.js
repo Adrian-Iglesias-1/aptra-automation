@@ -2,7 +2,6 @@
 const express = require('express');
 const multer = require('multer');
 const XLSX = require('xlsx');
-const puppeteer = require('puppeteer');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
@@ -514,3 +513,4 @@ app.listen(PORT, () => {
   console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
   addLog(`Servidor iniciado en puerto ${PORT}`, 'success');
 });
+
